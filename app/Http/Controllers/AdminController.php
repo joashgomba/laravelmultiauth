@@ -28,5 +28,9 @@ class AdminController extends Controller
 
     public function veiw(){
         //add core here
+        for($i=0;$i<=10;$i++)
+        {
+            echo $i;
+        }
     }
 }
