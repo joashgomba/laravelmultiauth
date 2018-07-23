@@ -25,4 +25,8 @@ class AdminController extends Controller
     {
         return view('admin');
     }
+
+    public function veiw(){
+        //add core here
+    }
 }
